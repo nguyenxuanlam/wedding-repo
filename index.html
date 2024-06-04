@@ -478,7 +478,7 @@
                             <p class="m-0">Ê ê đám cưới</p>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" onclick="localStorage.setItem('alertClosed', 'true');"></button>
                         </div>
-                        <textarea class="form-control shadow-sm" id="form-comment" rows="4" placeholder="Tulis Ucapan & Doa"></textarea>
+                        <textarea class="form-control shadow-sm" id="form-comment" rows="4" placeholder="Cồm men đây nè"></textarea>
                     </div>
 
                     <div class="d-grid">
@@ -488,8 +488,37 @@
                     </div>
                 </div>
 
-                <div class="my-3 pt-3" id="comments"></div>
-
+                <!-- <div class="my-3 pt-3" id="comments"></div> -->
+                  <!-- sample comment -->
+                <div class="my-3 pt-3" id="sample-comments">
+                    <div class="card-body bg-theme-dark shadow p-3 mx-0 mt-0 mb-3 rounded-4" data-parent="true" id="15b750d7-006e-4fd3-8b43-1542082c8e75">
+            
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <p class="text-light text-truncate m-0 p-0" style="font-size: 0.95rem;"><strong class="me-1">Con lý nó comment</strong><i class="fa-solid fa-circle-check text-success"></i></p>
+                        
+                        </div>
+                        <hr class="text-light my-1">
+                        <p class="text-light mt-0 mb-1 mx-0 p-0" style="white-space: pre-wrap !important" id="content-15b750d7-006e-4fd3-8b43-1542082c8e75">đồ đã đã</p>
+                            
+                            
+                        <div class="d-flex flex-wrap justify-content-between align-items-center" id="button-15b750d7-006e-4fd3-8b43-1542082c8e75">
+                            <div class="d-flex flex-wrap justify-content-start align-items-center">
+                                <button style="font-size: 0.8rem;" onclick="comment.reply(this)" data-uuid="15b750d7-006e-4fd3-8b43-1542082c8e75" class="btn btn-sm btn-outline-light rounded-3 py-0 me-1">Reply</button>
+                            </div>
+                            <div class="ms-auto">
+                                
+                        <button style="font-size: 0.8rem;" onclick="like.like(this)" data-uuid="15b750d7-006e-4fd3-8b43-1542082c8e75" class="btn btn-sm btn-outline-light rounded-2 p-0">
+                            <div class="d-flex justify-content-start align-items-center">
+                                <p class="my-0 mx-1" data-count-like="0">0 like</p>
+                                <i class="me-1 fa-regular fa-heart"></i>
+                            </div>
+                        </button>
+                            </div>
+                        </div>
+                            
+                        </div>
+                </div>
+                  <!-- sample comment -->
                 <nav class="d-flex justify-content-center mb-0 pt-2">
                     <ul class="pagination mb-0">
                         <li class="page-item disabled" id="previous">
@@ -522,12 +551,11 @@
             <div class="text-center">
 
                 <p style="font-size: 0.9rem;" class="pt-2 pb-1 px-2" data-aos="fade-up" data-aos-duration="1500">
-                    Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak / Ibu / Saudara / i.
-                    berkenan hadir untuk memberikan do'a restunya kami ucapkan terimakasih.
+                    Thật vinh dự và hạnh phúc cho tụi mình vì Ông/Bà/Anh/Chị. Cảm ơn bạn đã đến để chúc phúc cho tụi mình.
                 </p>
 
-                <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">Wassalamualaikum Warahmatullahi Wabarakatuh</h1>
-                <h1 class="font-arabic pt-4 px-2" data-aos="fade-up" data-aos-duration="2000" style="font-size: 2rem;">اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ</h1>
+                <!-- <h1 class="font-esthetic" data-aos="fade-up" data-aos-duration="2000">Wassalamualaikum Warahmatullahi Wabarakatuh</h1>
+                <h1 class="font-arabic pt-4 px-2" data-aos="fade-up" data-aos-duration="2000" style="font-size: 2rem;">اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ</h1> -->
 
                 <hr class="mt-3 mb-2">
 
